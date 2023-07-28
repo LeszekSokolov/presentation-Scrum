@@ -1,5 +1,5 @@
 {
-  "name": "reveal.js",
+  "name": "scrum",
   "version": "4.5.0",
   "description": "The HTML Presentation Framework",
   "homepage": "https://revealjs.com",
@@ -10,7 +10,9 @@
   "scripts": {
     "test": "gulp test",
     "start": "gulp serve",
-    "build": "gulp build"
+    "build": "gulp build",
+    "deploy": "gh-pages -d dist",
+    "clean": "rd /s /q dist"
   },
   "author": {
     "name": "Hakim El Hattab",
@@ -46,6 +48,7 @@
     "gulp-clean-css": "^4.2.0",
     "gulp-connect": "^5.7.0",
     "gulp-eslint": "^6.0.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-header": "^2.0.9",
     "gulp-tap": "^2.0.0",
     "gulp-zip": "^4.2.0",
