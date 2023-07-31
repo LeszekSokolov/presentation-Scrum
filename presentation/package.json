@@ -103,5 +103,8 @@
       "no-eq-null": 2,
       "no-unused-expressions": 0
     }
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
